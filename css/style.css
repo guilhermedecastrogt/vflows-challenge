@@ -1,0 +1,20 @@
+/* Adicione seus estilos personalizados aqui */
+.mt-5 {
+  margin-top: 3rem;
+}
+.mt-4 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+.mb-4 {
+  margin-bottom: 2rem;
+}
+.mb-3 {
+  margin-bottom: 1rem;
+}
+.card-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
