@@ -123,7 +123,7 @@ $(document).ready(function() {
                 let attachment = {
                     indice: index + 1,
                     nomeArquivo: fileInput.files[0].name,
-                    blobArquivo: fileInput.files[0].name // Utilize o nome do arquivo em vez do próprio blob
+                    blobArquivo: fileInput.files[0].name
                 };
                 formData.anexos.push(attachment);
             }

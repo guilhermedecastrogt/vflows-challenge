@@ -1,0 +1,41 @@
+{
+    "razaoSocial": "Empresa X",
+    "nomeFantasia": "Empresa X Fantasia",
+    "cnpj": "12345678901234",
+    "inscricaoEstadual": "123456789",
+    "inscricaoMunicipal": "987654321",
+    "endereco": "Avenida Principal",
+    "numero": "100",
+    "complemento": "Sala 101",
+    "bairro": "Centro",
+    "municipio": "São Paulo",
+    "estado": "SP",
+    "nomeContato": "João Silva",
+    "telefone": "+5511998765432",
+    "email": "joao.silva@empresax.com.br",
+    "produtos": [
+      {
+        "indice": 1,
+        "descricaoProduto": "Produto A",
+        "unidadeMedida": "unidade",
+        "qtdeEstoque": "50",
+        "valorUnitario": "150.00",
+        "valorTotal": "7500.00"
+      },
+      {
+        "indice": 2,
+        "descricaoProduto": "Produto B",
+        "unidadeMedida": "kg",
+        "qtdeEstoque": "100",
+        "valorUnitario": "200.00",
+        "valorTotal": "20000.00"
+      }
+    ],
+    "anexos": [
+      {
+        "indice": 1,
+        "nomeArquivo": "documento1.pdf",
+        "blobArquivo": "documento1.pdf"
+      }
+    ]
+  }  
