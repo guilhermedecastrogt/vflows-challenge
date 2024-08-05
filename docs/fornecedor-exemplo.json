@@ -1,41 +1,35 @@
 {
-    "razaoSocial": "Empresa X",
-    "nomeFantasia": "Empresa X Fantasia",
-    "cnpj": "12345678901234",
-    "inscricaoEstadual": "123456789",
-    "inscricaoMunicipal": "987654321",
-    "endereco": "Avenida Principal",
-    "numero": "100",
-    "complemento": "Sala 101",
-    "bairro": "Centro",
-    "municipio": "São Paulo",
-    "estado": "SP",
-    "nomeContato": "João Silva",
-    "telefone": "+5511998765432",
-    "email": "joao.silva@empresax.com.br",
-    "produtos": [
+  "razaoSocial": "Razao Social",
+  "nomeFantasia": "Nome Fantasia",
+  "cnpj": "1232312312",
+  "inscricaoEstadual": "123456",
+  "inscricaoMunicipal": "123456",
+  "nomeContato": "Nome Contato",
+  "telefoneContato": "5562999999999",
+  "emailContato": "guilhermecastro1000@gmail.com",
+  "produtos": [
       {
-        "indice": 1,
-        "descricaoProduto": "Produto A",
-        "unidadeMedida": "unidade",
-        "qtdeEstoque": "50",
-        "valorUnitario": "150.00",
-        "valorTotal": "7500.00"
+          "indice": 1,
+          "descricaoProduto": "Produto A",
+          "unidadeMedida": "kg",
+          "qtdeEstoque": "123",
+          "valorUnitario": "23",
+          "valorTotal": "2829.00"
       },
       {
-        "indice": 2,
-        "descricaoProduto": "Produto B",
-        "unidadeMedida": "kg",
-        "qtdeEstoque": "100",
-        "valorUnitario": "200.00",
-        "valorTotal": "20000.00"
+          "indice": 2,
+          "descricaoProduto": "Produto B",
+          "unidadeMedida": "litros",
+          "qtdeEstoque": "123",
+          "valorUnitario": "23",
+          "valorTotal": "2829.00"
       }
-    ],
-    "anexos": [
+  ],
+  "anexos": [
       {
-        "indice": 1,
-        "nomeArquivo": "documento1.pdf",
-        "blobArquivo": "documento1.pdf"
+          "indice": 1,
+          "nomeArquivo": "Presentation.pdf",
+          "blobArquivo": "Presentation.pdf"
       }
-    ]
-  }  
+  ]
+}

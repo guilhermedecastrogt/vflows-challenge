@@ -2,6 +2,7 @@ $(document).ready(function() {
     let productIndex = 0;
 
     $('#addProduct').click(function() {
+        $('#noProductsMessage').hide();
         productIndex++;
         let productHtml = `
         <div class="product mb-3 card">
@@ -68,9 +69,13 @@ $(document).ready(function() {
     $(document).on('click', '.removeProduct', function() {
         $(this).closest('.product').remove();
         updateProductIndices();
+        if ($('.product').length === 0) {
+            $('#noProductsMessage').show();
+        }
     });
 
     $('#addAttachment').click(function() {
+        $('#noAttachmentsMessage').hide();
         let attachmentHtml = `
         <div class="attachment mb-3">
             <div class="form-row">
@@ -107,6 +112,9 @@ $(document).ready(function() {
     $(document).on('click', '.removeAttachment', function() {
         $(this).closest('.attachment').remove();
         updateAttachmentIndices();
+        if ($('.attachment').length === 0) {
+            $('#noAttachmentsMessage').show();
+        }
     });
 
     $('#supplierForm').submit(function(e) {
